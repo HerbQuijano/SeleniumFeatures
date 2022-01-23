@@ -37,10 +37,16 @@ public class NetworkResponse {
             //System.out.println(res.getUrl());
             System.out.println(res.getStatus());
             //res.getStatus();
+            if (res.getStatus().toString().startsWith("4")) {
+                System.out.println("Error");
+                System.out.println(res.getUrl() + " failed with " + res.getStatus());
+            }
         });
 
         driver.get("https://rahulshettyacademy.com/angularAppdemo");
         driver.findElement(By.cssSelector(".btn.btn-primary")).click();
 
     }
+
 }
+
