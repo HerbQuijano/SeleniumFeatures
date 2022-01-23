@@ -34,6 +34,7 @@ public class NetworkFailedRequest {
 
         });
 
+
         driver.get("https://rahulshettyacademy.com/angularAppdemo/");
         driver.findElement(By.cssSelector(".navbar-toggler")).click();
         driver.findElement(By.linkText("Library")).click();
