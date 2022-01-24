@@ -4,7 +4,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.HasAuthentication;
 import org.openqa.selenium.UsernameAndPassword;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.devtools.DevTools;
 import java.net.URI;
 import java.time.Duration;
 import java.util.function.Predicate;
